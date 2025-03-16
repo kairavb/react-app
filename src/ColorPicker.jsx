@@ -7,9 +7,9 @@ function ColorPicker(){
         setColor(event.target.value)
     }
 
-    return(<div>
+    return(<div className="colorpicker">
         <h1>Color Picker</h1>
-        <div style={{backgroundColor: color}}>
+        <div className="colordisplay" style={{backgroundColor: color}}>
             <p>Selected Color: {color}</p>
         </div>
         <label>Select a Color</label>

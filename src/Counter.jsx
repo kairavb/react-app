@@ -16,7 +16,7 @@ function Counter(){
     }
 
     return(<div>
-        <p>{count}</p>
+        <p style={{fontSize: "2rem"}}>{count}</p>
         <button className="button" onClick={increment}>increment</button>
         <button className="button" onClick={decrement}>decrement</button>
         <button className="button" onClick={reset}>reset</button>
